@@ -22,6 +22,11 @@ npm install react-redux @reduxjs/toolkit
 npm install react-hook-form @hookform/resolvers zod
 ```
 
+#### Install Axios
+```bash
+npm install axios
+```
+
 #### Install TinyMCE React component
 ```bash
 npm i @tinymce/tinymce-react
@@ -96,3 +101,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 or you can use `fontSize`
 
 - <i className="bi bi-check" `style={{ fontSize: '2em' }}`></i>  {/* Check icon, 2x larger */}
+
+## Unsitall Packages 
+```bash
+npm uninstall <package-name>
+```
