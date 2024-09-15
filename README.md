@@ -102,7 +102,7 @@ or you can use `fontSize`
 
 - <i className="bi bi-check" `style={{ fontSize: '2em' }}`></i>  {/* Check icon, 2x larger */}
 
-## Unsitall Packages 
+## Uninstall Packages 
 ```bash
 npm uninstall <package-name>
 ```
