@@ -114,15 +114,15 @@ const fetchData = async () => {
   };
 ```
 ### Base URL configuration
-#### Create a new file called `axios.js`
+#### Create a new file called `axiosInstance.js`
 ```
 import axios from 'axios';
 
-const instance = axios.create({
+const axiosInstance = axios.create({
   baseURL: "https://example.com" // Base URL for all requests
 });
 
-export default instance;
+export default axiosInstance;
 ```
 
 #### Usage:
