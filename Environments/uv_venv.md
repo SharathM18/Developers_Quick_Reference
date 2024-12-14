@@ -10,19 +10,24 @@ pip install uv
 uv venv
 ```
 
-#### Create a virtual environment with a specific name, e.g., `my-name`:
-```bash
-uv venv my-name
-```
-
-#### Activate the virtual environment on Windows:
+#### Activate the virtual environment on Windows (if you use the above command):
 ```bash
 source .venv/Scripts/activate
 ```
 
-#### Install a package into the virtual environment, e.g., Flask:
+#### Create a virtual environment with a specific name, e.g., `my-name`:
 ```bash
-uv pip install flask
+uv venv <my_venv>
+```
+
+#### Activate the virtual environment on Windows:
+```bash
+source <my_venv>/Scripts/activate
+```
+
+#### Install a package into the virtual environment:
+```bash
+uv pip install <package_name>
 ```
 
 #### Install a package at a specific version, e.g., Ruff v0.3.0:
@@ -35,9 +40,9 @@ uv pip install 'ruff==0.3.0'
 uv pip install -r requirements.txt
 ```
 
-#### Uninstall a package, e.g., Flask:
+#### Uninstall a package:
 ```bash
-uv pip uninstall flask
+uv pip uninstall <package_name>
 ```
 
 #### List all packages in the virtual environment:
