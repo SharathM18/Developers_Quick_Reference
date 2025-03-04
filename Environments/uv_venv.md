@@ -55,6 +55,11 @@ uv pip list
 deactivate
 ```
 
+#### To automatically generate requirements.txt
+```bash
+uv pip freeze > requirements.txt
+```
+
 #### Project Structure
 ```
 my_project/
