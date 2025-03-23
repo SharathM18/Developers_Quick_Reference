@@ -328,6 +328,10 @@ clearInterval(interval);
 }
 ```
 
+```javascript
+Array.from({ length: 5 }) // [1, 2, 3, 4, 5]
+```
+
 ## 9. Execptional Handling with throw keyword
 
 ```javascript
