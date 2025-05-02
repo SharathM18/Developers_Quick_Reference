@@ -45,6 +45,12 @@ git config --global core.editor "code --wait"
 git config --global -e
 ```
 
+### Remove Old GitHub Credentials
+
+```
+Control Panel > User Accounts > Manage your Credential > Windows Credentials - Remove Github link under Generic Credential
+```
+
 ### Git aliases
 
 Git aliases are like shortcuts for longer Git commands. Instead of typing out a full command each time. (Copy this into configuration file)
