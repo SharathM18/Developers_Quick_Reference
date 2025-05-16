@@ -35,6 +35,7 @@ const useLocalStorage = ({ setError }) => {
 
 export default useLocalStorage;
 ```
+
 #### Usage:
 
 ```bash

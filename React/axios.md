@@ -3,8 +3,11 @@
 ```
 import axios from 'axios';
 ```
+
 ### Base URL configuration
+
 #### Create a new file called `axiosInstance.js`
+
 ```javascript
 import axios from "axios";
 
@@ -25,6 +28,7 @@ headers: {
 ```
 
 #### Usage:
+
 ```
 import axiosInstance from './axiosInstance'; // Import the Axios instance
 

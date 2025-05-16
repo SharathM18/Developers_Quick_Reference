@@ -1,6 +1,7 @@
-# React Modal 
+# React Modal
 
 Modal JSX file (`modal.jsx`)
+
 ```
 import React, { useRef } from "react";
 import "./modal.css"; // Import the CSS file
@@ -58,6 +59,7 @@ export default Modal;
 ```
 
 Modal CSS file (`modal.css`)
+
 ```
 dialog {
   margin: auto;
